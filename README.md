@@ -8,6 +8,7 @@ The StudyClimate.py scripts allows the user to read one or multiple files contai
 # Python environment
 To launch the Python script, I recommend you to create a python environment for exclusive use of this script in where you will install just the necessary python libraries needed by the StudyClimate.py script.
 You can do this with the "venv" command:
+
 In Linux/MacOS:
 python3 -m venv StudyClimate
 
@@ -18,6 +19,7 @@ Then activate the environment by typing
 source env/bin/activate in your Linux or macOS  or .\env\Scripts\activate in Windows.
 
 The next step is to install the necessary libraries, using the requirements.txt file included in this repository. You can do this as follows:
+
 In Linux/macOS:
 python3 -m pip install -r requirements.txt
 
