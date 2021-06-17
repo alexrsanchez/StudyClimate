@@ -10,10 +10,15 @@ To launch the Python script, I recommend you to create a python environment for 
 You can do this with the "venv" command:
 
 In Linux/MacOS:
+
+```bash
 python3 -m venv StudyClimate
+```
 
 In Windows:
+```bash
 py -m venv StudyClimate
+```
 
 Then activate the environment by typing
 source env/bin/activate in your Linux or macOS  or .\env\Scripts\activate in Windows.
@@ -21,9 +26,11 @@ source env/bin/activate in your Linux or macOS  or .\env\Scripts\activate in Win
 The next step is to install the necessary libraries, using the requirements.txt file included in this repository. You can do this as follows:
 
 In Linux/macOS:
+```bash
 python3 -m pip install -r requirements.txt
-
+```
 In Windows:
+```bash
 py -m pip install -r requirements.txt
-
+```
 Now you can launch the script and experiment with your climatological data!
