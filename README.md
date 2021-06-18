@@ -36,3 +36,13 @@ In Windows:
 py -m pip install -r requirements.txt
 ```
 Now you can launch the script and experiment with your climatological data!
+
+# License
+
+The project is licensed under the MIT license.
+
+# Coming up next
+
++ 2D autocorrelation function
++ Statistical significance tests
++ Wind roses
