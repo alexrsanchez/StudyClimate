@@ -41,8 +41,8 @@ Now you can launch the script and experiment with your climatological data!
 
 The project is licensed under the MIT license.
 
-# Coming up next
+# Milestones to reach
 
-+ 2D autocorrelation function
++ Compute 2D autocorrelation function
 + Statistical significance tests
-+ Wind roses
++ Draw wind roses
