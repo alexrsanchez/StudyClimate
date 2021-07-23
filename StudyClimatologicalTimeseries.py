@@ -86,6 +86,10 @@ input_file_prec = "PrecipitacionesCampillos.txt"
 # Location
 location = str(input('Input the location where measures have been done: '))
 
+# SET INITIAL AND FINAL DATES OF YOUR DATA
+date1 = '2010-09-01' # Date of first data
+date2 = '2021-07-22' # Date of last data
+
 # SET UNITS
 windunits = str(input('Input wind units (e.g.: km/h): '))
 tempunits = str(input('Input temperature units (e.g.: ºC): '))
@@ -149,9 +153,7 @@ dfwinddir['WindDirection [º]'] = dfwinddir['WindDirection [º]'].astype(float)
 climatedata_df = pd.concat([dfT, dfprec, dfwind, dfwinddir],axis=1)
 climatedata_df_copy = climatedata_df
 
-# Add data to both dataframes
-date1 = '2010-09-01' # Date of first data
-date2 = '2021-06-10' # Date of last data
+##### Step 2: Adding data to both dataframes
 datetoday = date2
 datehoy = date2
 mydates = pd.date_range(date1, date2).tolist()
